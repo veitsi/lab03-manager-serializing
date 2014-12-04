@@ -1,6 +1,10 @@
 package ua.com.uectech.wmysoft;
 
-public class Manager {
+import java.io.Serializable;
+
+public class Manager implements Serializable {
+
+	private static final long serialVersionUID = -5233421789366932076L;
 	String name;
 	Manager(String n){
 		name=n;

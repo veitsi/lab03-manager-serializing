@@ -1,6 +1,9 @@
 package ua.com.uectech.wmysoft;
 
-public class TodoItem {
+import java.io.Serializable;
+
+public class TodoItem implements Serializable{
+	private static final long serialVersionUID = 4985916145460562828L;
 	Project p;
 	Manager m;
 	TodoItem(Project p, Manager m){

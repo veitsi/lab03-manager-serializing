@@ -10,6 +10,9 @@ public class Customer implements Serializable {
 	TodoItem[] wl;
 	int projectsNumber;
 	
+	Customer (){	
+	}
+	
 	Customer(String n,int m){
 		this.name=n;
 		this.money=m;

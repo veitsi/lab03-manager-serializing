@@ -1,6 +1,10 @@
 package ua.com.uectech.wmysoft;
 
-public class Project {
+import java.io.Serializable;
+
+public class Project implements Serializable{
+
+	private static final long serialVersionUID = 1766993314753884742L;
 	String title;
 	int capacity;
 	Project(String t){
